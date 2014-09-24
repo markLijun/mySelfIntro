@@ -1,0 +1,200 @@
+a:link {color: white}
+a:visited {color: white}
+a:hover {color: gray}
+a:active {color: white}
+.skill li:hover{background-color: white;color: black;cursor:default}
+
+* {margin: 0;padding:0;
+color:white;
+    }
+
+body{
+    font-family:"Microsoft YaHei",Georgia,Serif;
+}
+#pageHello{
+    width:100%;
+    background-color: #22b573;
+    color:white;
+    font-size: 100px;
+}
+
+h2{
+    font-size: 46px;
+    font-weight: normal;
+    letter-spacing: 22px;
+}
+
+.container{
+    height:100%;
+    margin:0 auto;
+    width:1140px;
+    z-index:0;
+}
+
+.blockTitle{
+    line-height: 560px;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    position: relative;
+    width:100%
+}
+
+.centerIcon{margin:0 auto;width:30px}
+
+.nav{
+    width:100%;
+    background-color:#42474b;
+}
+
+.navlist{
+    float:right;
+}
+
+a{text-decoration: none;}
+
+.nav a{
+    line-height:55px;
+    cursor:pointer;
+    font-size:18px;
+    padding:0 25px;
+    z-index:1;
+}
+
+#pageSelfIntro{
+    height:700px;
+    background-color:#1889c5;
+}
+
+
+#intro-icon{
+    width:100%;
+    padding:20px 0 100px
+}
+
+
+#intro-icon img{
+    margin-left: 210px;
+}
+
+
+
+#textIntro{
+    margin:0 auto;
+    color:white;
+    font-size: 20px;
+    width:900px;
+    padding:0 150px;
+}
+
+#textIntro li{
+    height:40px;
+}
+
+#textIntro span{
+    text-align: right;
+}
+
+li span{
+    display: inline-block;
+    width:70px;
+    text-align: right;
+}
+
+#rightIntro{
+    display: inline-block;
+    line-height: 27px;
+}
+
+.introLeft{
+    float: left;
+}
+
+.introRight{
+    float:right;
+    margin-left: 90px;
+}
+
+#pageWork{
+    background-color: #26b1b6;
+    height:auto;
+    padding:30px 0 130px;
+}
+
+.pageTitle{
+    text-align: center;
+    font-size: 36px;
+    padding:60px 0 90px;
+    color:white;
+}
+
+#workIcons img{
+    margin-left: 30px;
+}
+
+#logo{
+    width:150px;
+    margin:0 auto 40px;
+}
+
+#pageSkills{
+    background: #9c58b6;
+}
+
+.skill{
+    display: inline-block;
+    border:2px solid #FFFFFF;
+    width:210px;
+    margin:30px 0 40px 120px;
+    vertical-align: top;
+}
+
+  ul{
+    list-style: none outside none;
+}
+
+.skill li:first-child{
+    background-color: #FFFFFF;
+    color: #333;
+}
+
+.skill li{
+    text-align: center;
+    line-height: 50px;
+    height:50px;
+    font-size: 25px;
+}
+
+.clear{
+    clear:both;
+}
+
+#workIcons{
+    padding:0 10px;
+}
+#workIcons .prj{
+    margin-left: 196px;
+    float:left;
+}
+
+#workIcons h3{
+    text-align: center;
+    margin:20px 0;
+    font-size: 25px;
+}
+
+#workIcons p{
+    font-size: 22px;
+    width:240px;
+}
+
+#wel{
+    padding:180px 0;
+    text-align: center;
+    font-size: 38px;
+}
+
+#pageWelcome{
+    background-color: #22b573;
+    height:700px;
+}
