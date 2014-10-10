@@ -6,7 +6,7 @@ $(function () {
     }
     var dv = $( "#fixedMenu");
     var st;
-   var otop =dv.offset().top; //存储原来的距离顶部的距离
+   var otop =dv.offset().top; 
     $(window).scroll(function () {
 
         st = Math.max(document.body.scrollTop || document.documentElement.scrollTop);
